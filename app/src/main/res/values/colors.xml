@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_dark">#757575</color>
+
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_background">#1E1E1E</color> <!-- Dark background -->
+    <color name="bottom_nav_icon_tint">@color/bottom_nav_icon_tint_selector</color> <!-- Icon tint selector -->
+    <color name="bottom_nav_text_tint">@color/bottom_nav_text_tint_selector</color> <!-- Text tint selector -->
+
+    <!-- Active and Inactive Colors -->
+    <color name="bottom_nav_text_active">#6200EE</color> <!-- Purple for active text -->
+    <color name="bottom_nav_text_inactive">#757575</color> <!-- Gray for inactive text -->
+    <color name="bottom_nav_icon_active">#6200EE</color> <!-- Purple for active icon -->
+    <color name="bottom_nav_icon_inactive">#757575</color> <!-- Gray for inactive icon -->
+    <color name="dark_gray">#262626</color> <!-- Popup menu background -->
+    <color name="gray_light">#F5F5F5</color>
+</resources>

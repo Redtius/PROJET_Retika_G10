@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "337095966110",
+    "project_id": "retika-f59cb",
+    "storage_bucket": "retika-f59cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337095966110:android:d88c36dd9e106898b7ea8f",
+        "android_client_info": {
+          "package_name": "com.ensat.retika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337095966110-d2l6sdodj4n9okviu8mclh5p9odifmn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGc2o4V8nwjEzNYPpfAafZfVO8wvO3VpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337095966110-d2l6sdodj4n9okviu8mclh5p9odifmn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

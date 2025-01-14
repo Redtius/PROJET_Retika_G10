@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom style for BottomNavigationView -->
+    <style name="BottomNavigationStyle" parent="Widget.Design.BottomNavigationView">
+        <!-- Background color -->
+        <item name="android:background">@color/bottom_nav_background</item>
+        <!-- Icon and text color when selected -->
+        <item name="itemIconTint">@color/bottom_nav_icon_tint</item>
+        <item name="itemTextColor">@color/bottom_nav_text_tint</item>
+        <!-- Icon size -->
+        <item name="itemIconSize">24dp</item>
+        <!-- Text appearance for active state -->
+        <item name="itemTextAppearanceActive">@style/BottomNavigationTextActive</item>
+        <!-- Text appearance for inactive state -->
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationTextInactive</item>
+        <!-- Elevation -->
+        <item name="elevation">8dp</item>
+    </style>
+
+    <!-- Active text style -->
+    <style name="BottomNavigationTextActive">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/bottom_nav_text_active</item>
+    </style>
+
+    <!-- Inactive text style -->
+    <style name="BottomNavigationTextInactive">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/bottom_nav_text_inactive</item>
+    </style>
+    <!-- Custom Toolbar Style -->
+    <style name="CustomToolbar" parent="Widget.AppCompat.Toolbar">
+        <!-- Background color -->
+        <item name="android:background">@drawable/rounded_toolbar_background</item>
+        <!-- Title text color -->
+        <item name="titleTextColor">@color/white</item>
+        <!-- Title text size -->
+        <item name="titleTextAppearance">@style/ToolbarTitleTextAppearance</item>
+        <!-- Menu icon color -->
+        <item name="android:textColorSecondary">@color/white</item>
+        <!-- Elevation for shadow -->
+        <item name="elevation">8dp</item>
+        <!-- Custom popup menu style -->
+        <item name="popupTheme">@style/CustomPopupMenu</item>
+    </style>
+
+    <!-- Toolbar Title Text Appearance -->
+    <style name="ToolbarTitleTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@color/bottom_nav_background</item>
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- res/values/styles.xml -->
+    <style name="CustomPopupMenu" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- Background color of the popup menu -->
+        <item name="android:colorBackground">@color/dark_gray</item>
+        <!-- Text color of the menu items -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Icon tint for the menu items -->
+        <!-- Corner radius for the popup menu -->
+        <item name="android:popupMenuStyle">@style/CustomPopupMenuStyle</item>
+    </style>
+
+    <!-- Style for the popup menu itself -->
+    <style name="CustomPopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <!-- Background with rounded corners -->
+        <item name="android:popupBackground">@drawable/popup_menu_background</item>
+    </style>
+    <style name="IconButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+</resources>

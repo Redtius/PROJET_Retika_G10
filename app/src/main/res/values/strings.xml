@@ -1,0 +1,18 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Retika</string>
+
+    <!-- Post Editor Strings -->
+    <string name="create_post">Create Post</string>
+    <string name="enter_a_caption">Enter a caption</string>
+    <string name="post">Post</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="post_created_successfully">Post created successfully</string>
+    <string name="failed_to_create_post">Failed to create post</string>
+    <string name="failed_to_upload_image">Failed to upload image</string>
+    <string name="please_select_an_image">Please select an image</string>
+    <string name="please_enter_a_caption">Please enter a caption</string>
+    <string name="post_image">Post Image</string>
+</resources>
